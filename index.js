@@ -14,6 +14,8 @@ module.exports = function(handle) {
           next(env);
         }
       });
+    }else{
+      next(env);
     }
   });
 };
